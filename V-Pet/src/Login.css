@@ -1,0 +1,102 @@
+/* Center the login card */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.login-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 320px;
+}
+
+.login-title {
+  margin-bottom: 1.5rem;
+  color: #2d3436;
+  font-size: 1.8rem;
+}
+
+/* Input styling */
+.login-input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+.login-input:focus {
+  border-color: #74b9ff;
+  outline: none;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.login-btn {
+  flex: 1;
+  margin: 0 0.3rem;
+  background: #0984e3;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-btn:hover {
+  background: #74b9ff;
+}
+
+.logout-btn {
+  background: #d63031;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background: #ff7675;
+}
+
+/* Messages */
+.error-msg {
+  color: #d63031;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.success-msg {
+  color: #00b894;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.welcome-msg {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #2d3436;
+}
+
+.back-btn {
+  margin-top: 1.5rem;
+}

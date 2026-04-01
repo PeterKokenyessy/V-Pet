@@ -1,0 +1,91 @@
+.FeedingDownBar {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    bottom: 200px;
+    left: 0;
+}
+
+.noSelect {
+    user-select: none;
+}
+
+
+.fridge {
+    width: auto;
+    height: 200px;
+    position: absolute;
+    left: 0;
+}
+
+.shop {
+    position: absolute;
+    right: 0;
+    width: auto;
+    height: 200px;
+}
+
+.foodContanier {
+    position: absolute;
+    bottom: -200px;
+    right: 50%;
+    transform: translate(50%);
+    font-size: 60px;
+    background-color: darkslategray;
+    border-radius: 5px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodContanier button {
+    background-color: black;
+    cursor: pointer;
+    border-radius: 8px;
+    max-width: fit-content;
+    max-width: fit-content;
+    font-size:x-large;
+}
+
+.inventory{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    transform: translate(-50%,-50%);
+    border: solid 2px rgba(255, 255, 255, 0.807);
+    border-radius: 8px;
+    font-size: 100px;
+    background-color: rgba(255, 255, 255, 0.451);
+}
+.inventoryCloseBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 20px;
+    z-index: 9999;
+}
+.itemsContainer{
+    position: relative;
+
+}
+
+.price{
+    position: absolute;
+    top: 10px ;
+    font-size: 25px;
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: aliceblue;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}

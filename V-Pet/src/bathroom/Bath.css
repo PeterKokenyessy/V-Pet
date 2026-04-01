@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    font-size: 50px;
+    left: 50%;
+    transform: translate(-40%);
+    width: 300px;
+    justify-content: space-between;
+}
+
+.shoverEffect{
+    display: block;
+    transform: translate(-50%);
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.soap, .shover {
+  cursor: grab;
+  user-select: none;
+}
+
+.activeShover{
+    transform: rotate(90deg);
+}

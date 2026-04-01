@@ -1,0 +1,94 @@
+.shopContanier {
+    position: absolute;
+    top: 13%;
+    right: 0;
+    left: 72%;
+    width: 35%;
+    max-width: 450px;
+    min-width: 280px;
+    height: 70%;
+    max-height: 700px;
+    padding: 20px;
+    background: linear-gradient(145deg, #ffe4b5aa, #ffd1dcaa);
+    border-radius: 20px;
+    border: 3px solid #fff5e6;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    font-family: "Comic Neue", "Comic Sans MS", cursive;
+    overflow-y: auto;
+}
+
+.backBtn {
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 140px;
+    right: 100px;
+    transition: transform 0.2s ease;
+}
+.backBtn:hover {
+    transform: scale(1.2);
+}
+
+
+.shopContanier > .foods {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 50px;
+}
+
+
+.foods > .foods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background: linear-gradient(145deg, #fff8dc, #ffecd1);
+    border: 2px solid #ffe4b5;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.foods > .foods:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background: linear-gradient(145deg, #fff0c1, #ffe4b5);
+}
+
+.foodBtn {
+    font-size: 22px;  
+    padding: 12px 20px;
+    border: 2px solid #ffb347; 
+    border-radius: 12px;
+    background: linear-gradient(145deg, #ffd1b5, #ffecb5);
+    color: #4b2e83;              
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+
+.foodBtn:hover {
+    transform: translateY(-5px) scale(1.05);
+    background: linear-gradient(145deg, #ffe0a1, #ffd18c);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.foord-price, .food-count {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4b2e83;
+}
+
+.food-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
