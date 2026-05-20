@@ -2,7 +2,7 @@
 
 # 🐾 V-Pet
 
-### Your tiny chaotic virtual companion living in the browser.
+### Your tiny virtual companion living in the browser.
 
 <p align="center">
   Feed it • Wash it • Play with it • Keep it alive
@@ -18,6 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/PeterKokenyessy/V-Pet">Repository</a>
+  <a href="https://virtual-pet-caring.web.app/">Pocket Pet</a>
 </p>
 
 ---
